@@ -32,8 +32,44 @@ const c = 1
 
 // parte 4
 
-if (a > 0) {
-    console.log("Positivo");
-} else {
-    console.log("Negativo");
+// if (a > 0) {
+//     console.log("Positivo");
+// } else {
+//     console.log("Negativo");
+// }
+
+// parte 5
+let soma = a + b + c;
+
+switch (a; b; c) {
+    case a >= 0: 
+    
+    case b >= 0:
+    
+    case c >= 0:
+    
+    case soma === 180:
+    
+    console.log("True");
+    
+    break;
+    
+    case a >= 0: 
+    
+    case b >= 0:
+        
+    case c >= 0:
+        
+    case soma !== 180:
+    
+    console.log("False");
+    
+    break;
+
+   default:
+   console.log("Erro");
 }
+
+// case a < 0 || b  < 0 ||  c < 0;
+    
+//console.log("Invalido");
