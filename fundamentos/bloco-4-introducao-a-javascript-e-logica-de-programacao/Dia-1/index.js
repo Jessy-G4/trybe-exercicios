@@ -1,5 +1,8 @@
 const a = 2;
 const b = 5;
+const c = 1
+
+// parte 1
 
 // let soma = a + b;
 // let subtracao = a - b;
@@ -11,8 +14,18 @@ const b = 5;
 
 // parte 2
 
-if (a > b) {
+// if (a > b) {
+//     console.log(a);
+// } else {
+//     console.log(b);
+// }
+
+// parte 3
+
+if (a > b && a > c) {
     console.log(a);
-} else {
+} else if(b > a && b > c) {
     console.log(b);
+} else if (c > a && c > b) {
+    console.log(c)
 }
